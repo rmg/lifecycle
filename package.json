@@ -1,0 +1,20 @@
+{
+  "name": "@rmg/lifecycle",
+  "version": "1.0.0",
+  "description": "empty package for testing/dumping npm lifecycle scripts",
+  "main": "package.json",
+  "scripts": {
+    "preinstall": "node -p 'JSON.stringify(process.env, null, 2)'",
+    "install": "node -p 'JSON.stringify(process.env, null, 2)'",
+    "postinstall": "node -p 'JSON.stringify(process.env, null, 2)'",
+    "pretest": "node -p 'JSON.stringify(process.env, null, 2)'",
+    "test": "node -p 'JSON.stringify(process.env, null, 2)'",
+    "posttest": "node -p 'JSON.stringify(process.env, null, 2)'"
+  },
+  "files": [
+    "package.json",
+    "README.md"
+  ],
+  "author": "Ryan Graham <r.m.graham@gmail.com>",
+  "license": "MIT"
+}
